@@ -1,19 +1,26 @@
-# Create a Repository
 
-In this activity we will create a Github repository and add group members as collaborators.
 
-## Instructions
+#Project Name: 
+        Sports Express "Your one stop shop for all your stat needs"
 
-* One group member should create a new Github repository. Don't worry about the project name now, this can be changed later.
+#Project Description:
+        A page where users can go and look up stats that they're looking for. 
 
-* From the repo's main page, click the "Settings" tab.
+#Team Members and each responsibility:
+        Nicholas Naieem: 
+                    JS , API , Html
+        Kelvin Martinez: 
+                    CSS , Html , JS
+        Farok Eyada: 
+                    API , Html , JS , Jquery
 
-* Once in the repo's settings, select the "Collaborators" menu item on the left.
+# Drawing/wireframe of site: 
+        Please open "drawing/wireframe" folder
 
-* From the "Collaborators" page invite your group members to be project collaborators by entering their Github usernames one at a time.
+# API's:
+        Sports Radar 
+        My Sports Feed
+        API - FOOTBALL
 
-* Each invited group member should receive an email they must open to accept the invitation.
 
-### Hints
 
-* Ask an instructor or TA if you get stuck!
