@@ -1,0 +1,64 @@
+
+
+/* Style for background image */
+
+body{
+    background-image: url("Project-NKF/Background Image/Soccer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* style for the search bar */
+.container{
+    margin-top: 200px;
+}
+
+
+.glyphicon-search{
+    font-size: 20px;
+}
+
+.btn-default{
+    background: orange;
+    width: 100px;
+    padding: 12.5px;
+}
+
+.form-control{
+    padding: 25px;
+    font-size: 20px;
+}
+
+
+/* Below is the styling for the navigation bar */
+
+.nav{
+
+background-color: #595959;
+color: white;
+list-style: none;
+text-align: center;
+padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.nav > li > a {
+
+text-decoration: none;
+color: white;
+ 
+}
+
+
+
+
+
+
+
+
+
