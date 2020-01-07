@@ -14,16 +14,6 @@ $.ajax(settings).then(function (response) {
 });
 
 
-
-
-
-
-
-
-
-
-
-
 // playerName = "lebron james"
 // var playerID =""
 // console.log(playerID);
