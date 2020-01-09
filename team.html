@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+          <!-- Head -->
+     <head>
+            <meta charest ="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Teams</title>
+
+
+              <!-- Links -->
+              <link href="css/bootstrap.min.css" rel="stylesheet">
+              <link href="css/global.css" rel="stylesheet">
+              <link href="css/font-awesome.min.css" rel="stylesheet" />
+              <link href="css/jquery.fs.wallpaper.css" rel="stylesheet">
+              <link rel="stylesheet" href="css.css">
+
+     </head>
+                <body>
+                    <header id="Home">
+                    
+                          <nav class="navbar navbar-default navbar-fixed-top cbp-af-header " role="navigation"> 
+                                <div class="container-fluid ">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bidpro-navbar" aria-expanded="flase">
+                                            <span class="sr-only">Toggle Navgation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>   
+                                        </button>
+                                            
+                                        </div>
+                                    
+                                        <div class="collapse navbar-collapse" id="bidpro-navbar">                               
+                                            <ul class="nav navbar-nav">
+                                                    <li><a href="Home.html">Home</a></li>
+                                                    <li><a href="articles.html">Articles</a></li>
+                                                    <li><a href="Videos.html">Videos</a></li> 
+                  
+                                            </ul>
+                                      </div>
+                                </div>
+                          </nav>
+                    </header>
+
+        <body>
+                    
+            <!--Top page-->
+            <div class="title-text">
+                    <i class='far fa-futbol' style='font-size:48px;color:red'></i>
+                    <a href="#Videos">   <span  class="  glyphicon glyphicon-record  fa-0.5x"  style="color:#e2af24">  </span><span style="color:#e2af24"> Teams</span>      </a>         
+                    <div>
+                    <div  href="articles.html"> <div class="txt center"> 
+                        <div>
+                            <label for="search"> Team Name:</label>
+                            <input type="text" id="search-term">
+                        </div>
+                        <button type="submit" class="btn btn-default" id="run-search">
+                            <i class="fa fa-search"></i> Search</button>
+                        <!-- <button class="btn btn-default" id="clear-all">
+                            <i class="fa fa-trash"></i> Clear Results</button> -->
+                            </div>
+                        </div>
+                    </div>
+
+                <!--search page-->
+                <div class="txt center">
+                    <div class="TeamInfo"></div>
+                    <div id="image-div" ></div>
+                    <div class="teams"></div>
+                    <div class="country"></div>
+                    <div class="cityOf"></div>
+                </div>
+            </div>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script src="js/javascriptTeam.js"></script>
+        </body>
+        </html>
+
