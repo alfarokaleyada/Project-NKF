@@ -87,6 +87,27 @@ $("#run-search").on("click", function (event) {
         type: "GET"
     }).then(function (response) {
         console.log(response);
+        console.log(response.result[0]);
+        playerName = response.result[0].player_name;
+        console.log(playerName);
+        playerNumber = response.result[0].player_number;
+        console.log(playerNumber);
+        playerCountry = response.result[0].player_country;
+        console.log(playerCountry);
+        playerPosition = response.result[0].player_type;
+        console.log(playerPosition);
+        playerAge = response.result[0].player_age;
+        console.log(playerAge);
+        playerMatchPlayed = response.result[0].player_match_played;
+        console.log(playerMatchPlayed);
+        playerGoals = response.result[0].player_goals;
+        console.log(playerGoals);
+        playerYellowCards = response.result[0].player_yellow_cards;
+        console.log(playerYellowCards);
+        playerRedCards = response.result[0].player_red_cards;
+        console.log(playerRedCards);
+        playerTeam = response.result[0].team_name;
+        console.log(playerTeam);
 
     });
 });
